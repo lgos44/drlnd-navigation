@@ -1,7 +1,13 @@
+[//]: # (Image References)
+
+[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
+
 # Navigation
 
 ### Introduction
  The objective of this project is to use Deep Reinforcement Learning to train an agent to navigate in a large square environment (provided by UnityEnvironment) and collect yellow bananas.
+ 
+![Trained Agent][image1]
  
 ### Project Details
 
