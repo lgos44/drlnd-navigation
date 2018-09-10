@@ -61,3 +61,19 @@ python -m ipykernel install --user --name drlnd --display-name "drlnd"
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
 7. Place the file in the root of this repository and unzip (or decompress) the file. 
+
+### Instructions
+
+To run the code you can either run the cells in the Report.ipynb or execute train.py and test.py
+
+To train the agent run:
+
+```bash
+python train.py
+```
+
+After training is successful a checkpoint.pth file will be generated. The test script will load and interact with the environment. To test the trained agent:
+
+```bash
+python test.py
+```
