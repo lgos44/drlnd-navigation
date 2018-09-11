@@ -1,5 +1,6 @@
-Banana.x86_64/
 Banana_Windows_x86_64/
+Banana_Linux/
+Banana_Linux_NoVis/
 
 # Mac OS
 .DS_Store

@@ -6,7 +6,7 @@ from collections import deque
 from dqn_agent import Agent
 
 # Change according to the operating system
-env = UnityEnvironment(file_name="./Banana_Windows_x86_64/Banana.exe")
+env = UnityEnvironment(file_name="./Banana_Linux/Banana.x86_64")
 # get the default brain
 brain_name = env.brain_names[0]
 brain = env.brains[brain_name]
